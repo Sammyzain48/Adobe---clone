@@ -156,6 +156,5 @@ body {
 .ai_textarea textarea {
   border: 1px solid #8aa2b3;
   outline: 15px solid #dff2f6;
+  background: whitesmoke;
 }
-
-.ai-call-to-action
