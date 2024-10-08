@@ -43,27 +43,32 @@ body {
   
 }
 
+/* Card Section */
+
 .plans .plans-cards {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
+/* Cards */
+
 .plans .plans-cards .card {
   padding: 10px;
   background: lightgray;
+  position: relative;
 }
 
 .plans .plans-cards .card.first {
   background: lightgrey;
 }
+
 .plans .plans-cards .card-info {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
 }
-
 
 .plans .plans-cards .card-info .card_img {
   width: 50px;
@@ -86,16 +91,38 @@ body {
 }
 
 .plans-cards .card_text.one {
-  border: 2px solid black;
   width: 200px;
 }
 
 .plans-cards .card_text.two {
-  border: 2px solid black;
-  width: 250px;
+  width: 240px;
 }
 
 .plans-cards .card_text.three {
-  border: 2px solid black;
-  width: 250px;
+  width: 230px;
+}
+
+.plans-cards .links {
+  color: #000;
+  cursor: pointer;
+}
+
+/* Call-to-action */
+
+.plans-cards .card-cta.cta_1 {
+  left: 10px;
+  bottom: 0;
+  position: absolute;
+}
+
+.plans-cards .card-cta.cta_2{
+  left: 10px;
+  bottom: 0;
+  position: absolute;
+}
+
+.plans-cards .card-cta.cta_3{
+  left: 10px;
+  bottom: 0;
+  position: absolute;
 }
