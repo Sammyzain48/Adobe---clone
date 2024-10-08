@@ -126,3 +126,21 @@ body {
   bottom: 0;
   position: absolute;
 }
+
+/* Generative Ai section*/
+
+.ai_section {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.ai_sub-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.ai_main-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
