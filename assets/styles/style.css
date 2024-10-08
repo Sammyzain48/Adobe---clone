@@ -51,11 +51,10 @@ body {
 
 .plans .plans-cards .card {
   padding: 10px;
-  border: 1px solid black;
 }
 
 .plans .plans-cards .card.first {
-  background: #f8f8f8;
+  background: lightgrey;
 }
 .plans .plans-cards .card-info {
   display: flex;
