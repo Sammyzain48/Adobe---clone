@@ -85,6 +85,17 @@ body {
   flex-basis: 150px;
 }
 
-.plans-cards .card_text {
-  
+.plans-cards .card_text.one {
+  border: 2px solid black;
+  width: 200px;
+}
+
+.plans-cards .card_text.two {
+  border: 2px solid black;
+  width: 250px;
+}
+
+.plans-cards .card_text.three {
+  border: 2px solid black;
+  width: 250px;
 }
