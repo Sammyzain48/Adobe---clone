@@ -51,6 +51,7 @@ body {
 
 .plans .plans-cards .card {
   padding: 10px;
+  background: lightgray;
 }
 
 .plans .plans-cards .card.first {
@@ -60,6 +61,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -81,4 +83,8 @@ body {
 
 .card-info .title_one {
   flex-basis: 150px;
+}
+
+.plans-cards .card_text {
+  
 }
