@@ -28,7 +28,7 @@ body {
 }
 
 .plans .plans_nav .plans_title {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
@@ -137,10 +137,24 @@ body {
 .ai_sub-title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.76);
+  color: #aaaaaa;
 }
 
 .ai_main-title {
   font-size: 1.7rem;
   font-weight: bold;
+}
+
+.ai-components {
+  margin-top: 20px;
+}
+
+.ai_textarea {
+  padding: 10px;
+}
+
+.ai_textarea textarea {
+  border: 1px solid #8aa2b3;
+  border-radius: 15px solid #dff2f6;
+  outline-radius: 5px;
 }
