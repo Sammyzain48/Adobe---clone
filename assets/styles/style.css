@@ -155,6 +155,5 @@ body {
 
 .ai_textarea textarea {
   border: 1px solid #8aa2b3;
-  border-radius: 15px solid #dff2f6;
-  outline-radius: 5px;
+  outline: 15px solid #dff2f6;
 }
